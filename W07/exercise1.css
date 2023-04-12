@@ -1,0 +1,27 @@
+.box{
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    background-color: aqua;
+
+    position: relative;
+}
+
+.box:hover{
+    animation: changeColor;
+    animation-duration: 5s;
+}
+
+
+
+
+
+
+
+@keyframes changeColor {
+    0% {background-color: rgba(242, 242, 238, 0.963); left:0px; top:0px;}
+    25% {background-color: yellow; left:200px; top:0px;}
+    50% {background-color: blue; left:200px; top:200px;}
+    75% {background-color: blueviolet; left:0px; top:200px;}
+    100% {background-color: black; left:0px; top:0px;}
+}

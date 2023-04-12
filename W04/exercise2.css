@@ -1,0 +1,55 @@
+#site{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    text-align: center;
+}
+header{
+    grid-column: 1/-1;
+    background-color: aqua;
+}
+.menu{
+    grid-column:1/2;
+    background-color: yellow;
+
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.main{
+    grid-column:2/3;
+    background-color: rgb(141, 61, 61);
+}
+.right{
+    grid-column:3/4;
+    background-color:palegoldenrod;
+}
+footer{
+    grid-column:1/-1;
+    background-color:gray;
+}
+.menu a{
+    grid-column: 1/-1;
+    grid-row:auto;
+}
+/* //螢幕大小<=620px */
+
+/* GRID */
+/* @media screen and (max-width: 620px){
+    #site{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .main, .menu, .right{
+        grid-column: 1/-1;
+    }
+} */
+
+/* FLEX */
+@media screen and (max-width: 620px){
+    #site{
+        display: flex;
+        flex-direction: column;
+    }
+    .main, .menu, .right{
+        width: 100%;
+    }
+}

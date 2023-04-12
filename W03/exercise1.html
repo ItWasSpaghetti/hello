@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exercise1.css">
+</head>
+<body>
+    <table>
+    <caption>表格</caption>
+        <tr>
+            <td>1</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>2</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td rowspan="2">4</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>5</td>
+            <!-- <td></td> -->
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2">6</td>
+            <td></td>
+            <!-- <td></td> -->
+        </tr>
+    </table>
+
+    <div style="padding:300px"></div>
+
+    <div id="outer1" class="outer">
+        <h1> 固定</h1>
+        <div id="static" class="square"></div>
+    </div>
+        
+    <div id="outer2" class="outer">
+        <h1>相對</h1>
+        <div id="relative" class="square"></div>
+    </div>
+        
+    <div id="outer3" class="outer">
+        <h1>絕對</h1>
+        <div id="absolute" class="square"></div>
+    </div>
+</body>
+</html>

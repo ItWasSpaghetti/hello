@@ -1,0 +1,34 @@
+body{
+    background-color: #f1f5f9;
+}
+.card{
+    background-color: #ffffff;
+    width: 300px;
+    text-align:center;
+    border:2px solid;
+    padding:15px;
+    margin:20px auto;
+}
+.card-1{
+    border-color: #ff69a6;
+}
+.card-2{
+    border-color: #68a3ff;
+}
+.btn{
+    padding: 5px;
+    border-radius:5px;
+}
+.btn-1{
+    background-color: #ffe8f1
+}
+.btn-2{
+    background-color: #ecf4ff;
+}
+.icon{
+    width:50px;
+    height:50px;
+    background-color: black;
+    border-radius: 50%;
+    margin:auto;
+}

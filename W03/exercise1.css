@@ -1,0 +1,47 @@
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+td{
+    color: red;
+    border: 1px solid black;
+    height: 20px;
+    width: 30px;
+}
+tr{
+    background-color: gainsboro;
+}
+tr:nth-child(3n+1){
+    background-color: black;
+}
+
+
+
+
+.outer{
+    position: relative;
+    width: 200px;
+    height: 300px;
+    border: 20px solid black;
+    float:left;
+}  
+.square{
+    top:0px;
+    left:0px;
+    height: 100px;
+    width:100px;
+    opacity: 0.5;
+}
+#static{
+    position: static;
+    background-color: blue;
+}
+#relative{
+    position: relative; 
+    background-color: green;
+}
+#absolute{
+    position: absolute;
+    top: 50px;
+    background-color: red;
+}
